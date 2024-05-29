@@ -1,6 +1,8 @@
-#https://leetcode.com/problems/merge-strings-alternately/description/
-#
-word1 = "abcd"; word2 = "pq"
+# https://leetcode.com/problems/merge-strings-alternately/description/
+
+word1 = "abcd"
+word2 = "pq"
+
 word1asarray = []
 for i in range(len(word1)):
    word1asarray+=word1[i]
@@ -8,7 +10,7 @@ for i in range(len(word1)):
 word2asarray = []
 for i in range(len(word2)):
    word2asarray+=word2[i]
-   
+
 if len(word1asarray).__gt__(len(word2asarray)):
    longeststringlength = len(word1asarray)
 else:
