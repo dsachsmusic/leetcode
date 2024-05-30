@@ -1,3 +1,7 @@
+# windows install: https://docs.python.org/3/using/windows.html#windows-full (use the full installer. Perhaps check off
+# the option for adding Python to PATH...however, in my experience, I needed to add Python (and pip, by the way)
+# to PATH manually)
+# when prompted, select to remove (disable) MAX_PATH)
 # find out what methods, functions (attributes?), etc. an object has with dir(something)...
 # then, can call those...methods, functions (attributes)...can use ...calls(?) like string.__len__(), or string.upper()
 string = "abcd"
@@ -16,4 +20,9 @@ for item in (dir(something)): print(item)
 
 # expanding variables within strings (printing) 
 # https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/
-# note: printing integers: https://www.sololearn.com/en/Discuss/185759/printing-string-and-integer-or-float-in-the-same-line
+# note: printing integers: 
+# https://www.sololearn.com/en/Discuss/185759/printing-string-and-integer-or-float-in-the-same-line
+
+
+# browse the file system https://builtin.com/data-science/python-list-files-in-directory
+import os; os.listdir() # etc.
