@@ -26,3 +26,10 @@ for item in (dir(something)): print(item)
 
 # browse the file system https://builtin.com/data-science/python-list-files-in-directory
 import os; os.listdir() # etc.
+
+# to make a character array out of a string, can use the "list" function: list(string)
+
+# joining (like, an array, into a string): something like the following 
+# (and, below, '' could also be ',', etc.)
+my_array = ['a','e','i']
+print(''.join(my_array)) 
