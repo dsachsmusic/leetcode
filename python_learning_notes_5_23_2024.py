@@ -72,3 +72,9 @@ array_of_words #results in ['word', 'anotherword']
 
 
 #spacing (style) - four spaces is the standard...but it can be anything
+
+
+#slicing an array: use brackets, with two values, first value is starting point (inclusive) and second is ending point (exclusive, i.e. up to, but not including)...
+array = ['zero','one','two','three']         
+array[0:2]
+#output: ['zero','one']
