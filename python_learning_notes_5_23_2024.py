@@ -78,3 +78,6 @@ array_of_words #results in ['word', 'anotherword']
 array = ['zero','one','two','three']         
 array[0:2]
 #output: ['zero','one']
+
+
+#exiting a loop: "return" is used to stop processing of functions, "break" is used to exit loops (?)
