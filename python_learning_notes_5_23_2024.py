@@ -69,7 +69,7 @@ array_of_words #results in ['word', 'anotherword']
 # that element is added as a single item to the list on the left side.
 # Essentially, list1 += item is equivalent to list1.extend(item) when item is iterable (like a list) or 
 # list1.append(item) when item is not iterable.
-
+      
 
 #spacing (style) - four spaces is the standard...but it can be anything
 
@@ -80,4 +80,7 @@ array[0:2]
 #output: ['zero','one']
 
 
-#exiting a loop: "return" is used to stop processing of functions, "break" is used to exit loops (?)
+#exiting a loop: "return" is used to stop processing of functions, "break" is used to exit loops (?)  
+
+# The triple quotation marks (''' or """) in Python are used for creating multi-line strings....
+# ...without needing to use newline characters (\n) or concatenating strings with the + operator.
