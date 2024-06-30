@@ -83,4 +83,4 @@ array[0:2]
 #exiting a loop: "return" is used to stop processing of functions, "break" is used to exit loops (?)  
 
 # The triple quotation marks (''' or """) in Python are used for creating multi-line strings....
-# ...without needing to use newline characters (\n) or concatenating strings with the + operator.
+# ...without needing to use newline characters (\n) or concatenating strings with the + operator.  
